@@ -3,6 +3,7 @@ POC for using Service Configuration Files in DDM for third party apps - https://
 The domain is com.example.demoapp, the config file is demoapp.conf. 
 
 Using a configuration 
+```
 {
   "Identifier": "org.example.demoapp.config",
   "Type": "com.apple.configuration.services.configuration-files",
@@ -12,7 +13,9 @@ Using a configuration
   }
 }
 
+```
 Then using an asset
+```
 {
   "Identifier": "org.example.demoapp.asset",
   "Type": "com.apple.asset.data",
@@ -28,4 +31,5 @@ Then using an asset
   }
 }
 
+```
 POC Created by Codex
